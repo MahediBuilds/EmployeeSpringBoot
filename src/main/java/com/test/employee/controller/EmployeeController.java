@@ -93,6 +93,8 @@ public class EmployeeController {
                 String[] parts = line.split(",");
                 if (!parts[3].equals(phone)) {
                     updated.add(line);
+                } else {
+                    System.out.println("No such user found!");
                 }
             }
 

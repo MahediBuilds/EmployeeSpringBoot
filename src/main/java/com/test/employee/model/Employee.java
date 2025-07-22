@@ -6,6 +6,7 @@ public class Employee {
     private String gender;
     private String phone;
     private String age;
+//    private String address;
 
     public String getFname() {
         return fname;
