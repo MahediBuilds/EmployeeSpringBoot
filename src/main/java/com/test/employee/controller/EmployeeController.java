@@ -29,13 +29,13 @@ public class EmployeeController {
                 "<input type='radio' name='gender' value='Female'> Female<br>" +
                 "Phone:<br><input type='text' name='phone'><br>" +
                 "Age:<br><input type='text' name='age'><br>" +
-                "<input type='submit' value='Add'><br><br>" +
+                "<br><input type='submit' value='Add'><br><br>" +
                 "</form>" +
 
                 "<h3>View All Employees:</h3><a href='/view'>/view</a><br>" +
                 "<h3>Delete by Phone:</h3><form method='POST' action='/delete'>" +
                 "Phone: <input type='text' name='phone'><br>" +
-                "<input type='submit' value='Delete'>" +
+                "<br><input type='submit' value='Delete'>" +
                 "</form>" +
 
                 "<h3>Modify Employee:</h3><form method='POST' action='/modify'>" +
@@ -44,7 +44,7 @@ public class EmployeeController {
                 "New Last name: <input type='text' name='lname'><br>" +
                 "New Gender: <input type='text' name='gender'><br>" +
                 "New Age: <input type='text' name='age'><br>" +
-                "<input type='submit' value='Modify'>" +
+                "<br><input type='submit' value='Modify'>" +
                 "</form></div></body></html>";
     }
 
